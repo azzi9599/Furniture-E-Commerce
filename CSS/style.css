@@ -1,0 +1,392 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  font-family: "cormorant-garamond-regular";
+  background-color:white;
+  color: #000000;
+
+}
+.cormorant-garamond-light {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+/*    navigation section       */
+header{
+  background-color: white;
+  padding: 8px 0 8px;
+}
+.navigation{
+  display: flex;
+  justify-content:space-between;
+  padding: 0 3em 0 3em;
+margin-top: 25px;
+  list-style: none;
+  text-decoration: none;
+
+}
+.searchsection{
+  width: 50%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border-width: thin;
+}
+.navigation ul a h2{
+  text-decoration: none;
+  
+}
+
+#nav2{
+  display: flex;
+  grid-gap: 1.5em;
+  justify-content:center;
+  align-items: center;
+}
+#nav1 a{
+  list-style: none;
+  text-decoration:none;
+  color: #092635;
+  font-size: 1.5rem;
+}
+#nav2 a{
+  list-style: none;
+  text-decoration:none;
+  color: #092635;
+}
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+nav ul a li {
+  text-decoration: none;
+}
+
+
+
+
+/* Dropdown Button */
+.maindrop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color:white;
+  
+}
+.dropbtn:hover{
+  background-color: #092635;
+}
+
+/* Container for Dropdown Content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: space-evenly;
+  background-color:rgb(255, 255, 255);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+ background-color: rgb(255, 255, 255);
+  min-width: 160px;
+
+  
+}
+
+/* Links inside the Dropdown */
+.dropdown-content a {
+  color: #092635;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change Color of Dropdown Links on Hover */
+.dropdown-content a:hover {
+  background-color: #092635;
+  color: white;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the Background Color of the Dropdown Button when the Dropdown Content is Shown */
+.dropdown:hover .dropbtn {
+  background-color:white;
+  color: #092635;
+}
+
+
+
+
+/** banner section */
+.hero-image {
+  background-image: url("https://edge.curalate.com/v1/img/NdGQjrOsA3wB3DVl4h8gKOcxBe_9GLcUAAEm9FkWCb4=/d/xl");
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+  padding: 100px 0;
+  height: 40vh;
+font-weight: 300;
+margin-bottom: 20px;;
+transition: 0.5s ease ;
+overflow: hidden;
+}
+.hero-image:hover{
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.hero-image h1{
+  font-size: 8rem;
+  color: #000000;
+}
+.hero-image h3{
+  font-size: 2rem;
+}
+#allbtn{
+  padding: 10px 35px;
+  color: white;
+  background-color: #000304;
+}
+#allbtn:hover{
+  transform: scale(1.1);
+  transition: .5s all ease;
+ 
+}
+
+.runningline{
+  background-color: #000101;
+  color: white;
+}
+.cardcontainer{
+  display: flex;
+justify-content: space-around;
+padding: 20px 8px;
+}
+.card img{
+ 
+  height: 450px;
+  width: 350px;
+  background-color: #717171;
+  object-fit: cover;
+  transition: 0.5s ease ;
+    overflow: hidden;
+}
+.card{
+  transition: 0.5s ease ;
+  overflow: hidden;
+
+}
+
+.card:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+
+.card h3{
+  font-weight: 100;
+}
+.card h3 a{
+  
+ text-decoration: none;
+ color: #000000;
+}
+.banner1{
+  font-family: "cormorant-garamond-regular";
+width: 100%;
+height: 90vh;
+background-image: url("../images/home.jpg");
+background-size: cover;
+}
+
+.boxbanner{
+  padding: 4% 4%;
+}
+.banner1 h1{
+font-size: 3.5rem;
+  font-weight: 100;
+
+}
+
+.box2container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4% 4%;
+}
+.box2first{
+  padding: 0 0 20px 0;
+  transition: 0.5s ease ;
+  overflow: hidden;
+}
+.box2first img{
+  object-fit: cover;
+height: 90vh;
+width: 619px;
+
+}
+.box2first a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 100;
+}
+.box2first a h2{
+  font-weight: 100;
+}
+
+.box2first:hover{
+  
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s ease;
+
+}
+.banner2{  font-family: "cormorant-garamond-regular";
+  width: 100%;
+  height: 90vh;
+  background-image: url("../images/home2.jpg");
+  background-size: cover;
+padding-bottom: 5%;
+  }
+
+.banner2 h1{
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-col h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 10px;
+}
+
+.footer-col a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #000000;
+  font-size: 18px;
+}
+
+.live-chat {
+  display: inline-block;
+  margin-top: 15px;
+  color: #999;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.live-chat i {
+  margin-right: 5px;
+}
+
+.footer-col form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-col input[type="email"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.footer-col button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #e2e2e2;
+}
